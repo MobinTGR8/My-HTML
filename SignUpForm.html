@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1 style="text-align: center;"><u> Sign Up Form </u></h1>
+        <hr><br>
+        <label for="user"><b>Name:</b> 
+            <input type="text" name="user" id="user"  placeholder="User Name"><br>
+        </label>
+        <label for="mail"><b>Email:</b>
+            <input type="email" name="user" id="mail" placeholder="Mail Adress" required><br>
+        </label>
+        <label for="pass"><b>Password:</b>
+            <input type="password" name="user" id="pass" placeholder="Password" required><br>
+        </label>
+        <!--Phone-->
+        <label for="phn"><b>Phone:</b>
+            <br>
+            <select name="Code" id="">
+                <option value="+880">+880</option>
+                <option value="+990">+990</option>
+                <option value="+110">+110</option>
+            </select>
+            <input type="number" name="Phone" id="phn" placeholder="123456789"><br>
+            <label for="Country">Country</label>
+                <input list="con">
+                <datalist id="con">
+                    <option value="Bangladesh"></option>
+                    <option value="India"></option>
+                    <option value="Canada"></option>
+                </datalist>
+                <br>
+        </label>
+        <!--Phone-->
+        <label for="gdr"><b>Gender:</b>
+            <input type="radio" name="gdr" id="gdr">Male
+            <input type="radio" name="gdr" id="gdr">Female
+            <input type="radio" name="gdr" id="gdr">others
+        </label><br>
+        <label for="dob"><b>Date of Birth:</b>
+            <input type="date" name="dob" id="dob"><br>
+        </label>
+        <label for="time"><b>Time:</b>
+            <input type="time" name="time" id="time"><br>
+        </label>
+        <label for="clr"><b>Color:</b>
+            <input type="color" name="clr" id="clr"><br>
+        </label>
+        <label for="photo"><b>Your Photo:</b>
+            <input type="file" name="photo" id="photo"><br>
+        </label>
+        <input type="checkbox" name="vh1" id="vh1">
+        <label for="vh1">I have Bike</label>
+        <input type="checkbox" name="vh2" id="vh2">
+        <label for="vh2">I have Bycycle</label>
+        <br>
+        <textarea name="txt" id="txt" cols="30" rows="10">Your Comment</textarea>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
