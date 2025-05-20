@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">John Doe</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="profile.jpg" alt="Profile Image" class="profile-img"/>
+    <h1>About Me</h1>
+    <p>I'm John, a passionate software developer with 3 years of experience in full-stack development. I love building scalable web apps and learning new tech.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="html.png" alt="HTML">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="css.png" alt="CSS">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="js.png" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Built a responsive portfolio site using HTML, CSS, and JS.</p>
+    </div>
+    <div class="project">
+      <h3>Task Manager App</h3>
+      <p>Developed a full-stack task manager with Node.js and MongoDB.</p>
+    </div>
+    <div class="project">
+      <h3>Weather Forecast Tool</h3>
+      <p>Implemented a weather forecast app using APIs and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div id="recommendation-list">
+      <p>"John is a fantastic developer and a great team player!" - Alice</p>
+      <p>"Always delivers on time with exceptional quality." - Bob</p>
+      <p>"A pleasure to work with and always helpful." - Charlie</p>
+    </div>
+    <div class="recommendation-form">
+      <textarea id="new-rec" placeholder="Add your recommendation..."></textarea><br/>
+      <button onclick="addRecommendation()">Submit</button>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#top" class="home-icon">🏠</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
